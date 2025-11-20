@@ -1,14 +1,21 @@
 body {
   background-color: #ff9159;
-  text-align: center;
 }
 
 h1 {
-  color: #00264d;
+  color: #250000;
   margin-left: 20px;
-  text-align: center;
+}
+
+h2 {
+  color: #464040;
 }
 
 div {
   background-color: #FFF9F9;
+}
+
+.center{
+  text-align: center;
+  color: #5F5146
 }
