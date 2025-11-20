@@ -3,6 +3,10 @@ body {
 }
 
 h1 {
-  color: navy;
+  color: #00264d;
   margin-left: 20px;
+}
+
+.center {
+  text-align: center;
 }
