@@ -69,3 +69,17 @@ body {
 audio {
   width: 100%;
 }
+ul {
+  list-style: none; /* Remove default bullets */
+  padding-left: 20px; /* Adjust spacing */
+}
+
+ul li {
+  /* Or use background properties for more control */
+  background-image: url(https://image2url.com/r2/default/images/1767462842655-65ad9b7b-d0e0-4f4e-b7e7-c2e071e597a1.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 1em;
+  padding-left: 1.5em;
+}
+
