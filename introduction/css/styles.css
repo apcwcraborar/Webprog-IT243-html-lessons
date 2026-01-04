@@ -17,6 +17,10 @@ h2,h3 {
   font-weight: bolder;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -40,7 +44,7 @@ h2,h3 {
   border: 3px solid #fa1e9e;
   padding: 5px;
   border-radius: 10px;
-
+  box-shadow: 0 4px 12px rgba(255, 16, 107, 0.4);
 }
 
 /* Details */
@@ -87,6 +91,7 @@ h2,h3 {
   width: 100%;
   border: 3px solid #fa1e9e;
   border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 16, 107, 0.4);
 }
 
 audio {
