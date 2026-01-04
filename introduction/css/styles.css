@@ -103,6 +103,12 @@ h2,h3 {
   color: #000000;
 }
 
+.info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* spacing between tables */
+}
+
 .likes-hobbies {
   display: flex;
   gap: 10px;
