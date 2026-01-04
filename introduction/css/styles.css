@@ -216,6 +216,14 @@ audio {
   .container {
     grid-template-columns: 1fr;
   }
+    
+  .likes-hobbies-table {
+    grid-template-columns: 1fr;
+  }
+
+  .lh-header {
+    border-right: none;
+  }
 
   body {
     margin: 0;
@@ -225,13 +233,5 @@ audio {
   img,
   audio {
     width: 100%;
-  }
-  
-  .likes-hobbies-table {
-    grid-template-columns: 1fr;
-  }
-
-  .lh-header {
-    border-right: none;
   }
 }
