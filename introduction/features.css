@@ -70,32 +70,6 @@ audio {
   width: 100%;
 }
 
-.heart-list {
-  list-style: none;
-  padding-left: 0;
+.arrow-heart {
+  list-style-type: "❥";
 }
-
-/* Heart bullet */
-.heart-list li {
-  content: "❤️";
-  position: absolute;
-  left: 0;
-  top: 2px;
-  font-size: 18px;
-  animation: pulse 1.5s infinite;
-}
-
-/* Pulse animation */
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.25);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-
