@@ -13,6 +13,10 @@ body {
   padding: 20px;
 }
 
+h2,h3 {
+  font-weight: bolder;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -26,21 +30,23 @@ body {
 .profile {
   background: #000000;
   padding: 15px;
+  border: 3px #fa1e9e;
   border-radius: 10px;
-  border-color: #fa1e9e;
   color: #fa1e9e;
 }
 
 .profile-img img {
   width: 100%;
+  border: 3px#fa1e9e;
+  padding: 5px;
   border-radius: 10px;
-  border-color: #fa1e9e;
 }
 
 /* Details */
 .details section {
   background: #ff9fce;
   padding: 10px;
+  border: 3px #000;
   margin-bottom: 10px;
   border-radius: 8px;
 }
@@ -59,7 +65,7 @@ body {
 
 .goals {
   background: #000;
-  color: #fff;
+  color: #fa1e9e;
   padding: 10px;
   margin-top: 10px;
   border-radius: 8px;
@@ -77,8 +83,8 @@ body {
 
 .music-img img {
     width: 100%;
+    border: 3px #fa1e9e;
     border-radius: 10px;
-    border-color: #fa1e9e;
 }
 
 audio {
@@ -120,5 +126,8 @@ audio {
   img,
   audio {
     width: 100%;
+  }
+  .likes-hobbies {
+    flex-direction: column;
   }
 }
