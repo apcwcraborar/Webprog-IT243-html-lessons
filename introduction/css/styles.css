@@ -43,9 +43,6 @@ h2,h3 {
   box-shadow: 0 4px 12px rgba(255, 16, 107, 0.4);
 }
 
-.margin-separator{
-  margin: 3px;
-}
 .about-card {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -82,25 +79,26 @@ h2,h3 {
 }
 
 /* Details */
-.card {
-  display: grid;
-  grid-template-rows: auto 1fr;
+.info-card {
   border: 3px solid #fa1e9e;
   border-radius: 10px;
   overflow: hidden;
-  background: #ff9fce;
+  background: #000;
+  margin-bottom: 15px;
 }
 
-.card-header {
-  background: #000;
-  color:#fa1e9e;
+/* highlighted title cell */
+.info-header {
+  background: #000000;
+  color: #fa1e9e;
   font-weight: bold;
-  padding: 5px;
+  padding: 10px;
   letter-spacing: 1px;
 }
 
-.card-body {
-  padding: 10px;
+/* content cell */
+.info-body {
+  padding: 12px;
   background: #ff9fce;
   color: #000000;
 }
@@ -173,7 +171,7 @@ audio {
 }
 
 .center-align{
-    align-items: center;
+    text-align: center;
     color:#fa1e9e;
 }
 
