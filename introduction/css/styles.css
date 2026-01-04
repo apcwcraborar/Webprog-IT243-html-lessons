@@ -90,7 +90,7 @@ h2,h3 {
 /* highlighted title cell */
 .info-header {
   background: #000000;
-  color: #fa1e9e;
+  color: #ff9fce;
   font-weight: bold;
   padding: 10px;
   letter-spacing: 1px;
@@ -120,8 +120,8 @@ h2,h3 {
 
 /* header cells */
 .lh-header {
-  background: #ff9fce;
-  color: #000;
+  background: #000000;
+  color: #fa1e9e;
   font-weight: bold;
   text-align: center;
   padding: 10px;
@@ -135,7 +135,8 @@ h2,h3 {
 /* content cells */
 .lh-cell {
   padding: 12px;
-  color: #fa1e9e;
+  background: #ff9fce;
+  color: #000000;
   border-top: 3px solid #fa1e9e;
 }
 
