@@ -40,6 +40,7 @@ h2,h3 {
   border: 3px solid #fa1e9e;
   padding: 5px;
   border-radius: 10px;
+  box-shadow: ;
 }
 
 /* Details */
@@ -97,9 +98,17 @@ audio {
   padding-left: 0;
 }
 
+.heart-list li {
+  position: relative;
+  padding-left: 28px; /* makes room for the heart */
+}
+
 .heart-list li::before {
   content: "❤";
   color: #fa1e9e;
+  position: absolute;
+  left: 0;
+  top: 2px;
   animation: float 2s ease-in-out infinite;
 }
 
@@ -112,6 +121,14 @@ audio {
 .center-align{
     align-items: center;
     color:#fa1e9e;
+}
+
+.profile,
+.details section,
+.likes-hobbies div,
+.music,
+.goals {
+  box-shadow: 0 4px 12px rgba(105, 7, 45, 0.4);
 }
 
 @media (max-width: 768px) {
