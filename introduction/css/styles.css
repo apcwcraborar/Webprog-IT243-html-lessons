@@ -16,8 +16,8 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  gap: 20px;
-  background: #5f002e;
+  gap: 10px;
+  background: #5f002ea0;
   padding: 20px;
   border-radius: 10px;
 }
