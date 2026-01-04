@@ -4,7 +4,12 @@
 }
 
 body {
-  background: #ff9fce;
+    background-image: url(https://i.pinimg.com/1200x/de/86/32/de8632dc5a56244be39bcb72d3311478.jpg); /* Specify the image file path/URL */
+    background-repeat: no-repeat;           /* Prevent the image from tiling */
+    background-size: cover;                /* Scale the image to cover the entire container */
+    background-position: center;           /* Center the image within the container */
+    background-attachment: fixed;          /* Keep the image fixed when scrolling */
+    background-color: #000000;             /* Fallback color if the image fails to load */
   padding: 20px;
 }
 
@@ -12,7 +17,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 20px;
-  background: #ff9fce;
+  background: #5f002e;
   padding: 20px;
   border-radius: 10px;
 }
