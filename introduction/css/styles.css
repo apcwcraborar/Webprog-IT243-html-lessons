@@ -25,6 +25,7 @@ body {
 /* Profile */
 .profile {
   background: #000000;
+  opacity: 75%;
   padding: 15px;
   border-radius: 10px;
   border-color: #fa1e9e;
@@ -67,10 +68,17 @@ body {
 
 /* Music */
 .music {
-  background: #ff9fce;
+  background: #000000;
+  opacity: 75%;
   padding: 15px;
   border-radius: 10px;
   text-align: center;
+}
+
+.music-img img {
+    width: 100%;
+    border-radius: 10px;
+    border-color: #fa1e9e;
 }
 
 audio {
@@ -92,4 +100,9 @@ audio {
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-5px); }
   100% { transform: translateY(0); }
+}
+
+.center-align{
+    align-items: center;
+    color:#fa1e9e;
 }
