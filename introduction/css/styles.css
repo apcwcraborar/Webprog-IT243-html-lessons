@@ -238,7 +238,7 @@ audio {
   .container {
     grid-template-columns: 1fr;
   }
-    
+
   .likes-hobbies-table {
     grid-template-columns: 1fr;
   }
@@ -247,7 +247,11 @@ audio {
     border-right: none;
   }
 
-    .lh-cell:first-of-type {
+  .lh-cell {
+    border-top: 3px solid #fa1e9e;
+  }
+
+  .lh-cell:first-of-type {
     border-right: none;
   }
 
