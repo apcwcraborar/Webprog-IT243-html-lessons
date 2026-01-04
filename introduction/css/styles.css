@@ -106,19 +106,37 @@ h2,h3 {
 .info-section {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* spacing between tables */
-}
-
-.likes-hobbies {
-  display: flex;
   gap: 10px;
 }
 
-.likes-hobbies div {
+.likes-hobbies-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 3px solid #fa1e9e;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #000;
+}
+
+/* header cells */
+.lh-header {
   background: #ff9fce;
-  flex: 1;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
   padding: 10px;
-  border-radius: 8px;
+  border-right: 3px solid #fa1e9e;
+}
+
+.lh-header:last-child {
+  border-right: none;
+}
+
+/* content cells */
+.lh-cell {
+  padding: 12px;
+  color: #fa1e9e;
+  border-top: 2px solid #fa1e9e;
 }
 
 .goals {
@@ -208,7 +226,12 @@ audio {
   audio {
     width: 100%;
   }
-  .likes-hobbies {
-    flex-direction: column;
+  
+  .likes-hobbies-table {
+    grid-template-columns: 1fr;
+  }
+
+  .lh-header {
+    border-right: none;
   }
 }
