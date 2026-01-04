@@ -43,7 +43,7 @@ h2,h3 {
   box-shadow: 0 4px 12px rgba(255, 16, 107, 0.4);
 }
 
-.about-card {
+.card {
   display: grid;
   grid-template-rows: auto 1fr;
   border: 3px solid #fa1e9e;
@@ -79,12 +79,27 @@ h2,h3 {
 }
 
 /* Details */
-.details section {
+.card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border: 3px solid #fa1e9e;
+  border-radius: 10px;
+  overflow: hidden;
   background: #ff9fce;
+}
+
+.card-header {
+  background: #000;
+  color:#fa1e9e;
+  font-weight: bold;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
+.card-body {
   padding: 10px;
-  border: 3px solid #000000;
-  margin-bottom: 10px;
-  border-radius: 8px;
+  background: #ff9fce;
+  color: #000000;
 }
 
 .likes-hobbies {
