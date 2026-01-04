@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #ff9fce;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  background: #ff9fce;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Profile */
+.profile {
+  background: #000000;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: #fa1e9e;
+}
+
+.profile-img img {
+  width: 100%;
+  border-radius: 10px;
+  border-color: #fa1e9e;
+}
+
+/* Details */
+.details section {
+  background: #ff9fce;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.likes-hobbies {
+  display: flex;
+  gap: 10px;
+}
+
+.likes-hobbies div {
+  background: #ff9fce;
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.goals {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Music */
+.music {
+  background: #ff9fce;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+audio {
+  width: 100%;
+}
+
+.heart-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.heart-list li::before {
+  content: "❤";
+  color: #fa1e9e;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
