@@ -1,61 +1,37 @@
 body {
-  background: #121212;
-  padding: 20px;
+    background-color: black;
+    margin-left: 5px;
+}
+
+h2{
+    color: #fa1e9e;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.textTitle {
+    color: #fa1e9e;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;    
+}
+
+.textStyleBody {
+    color: #fa1e9e;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  gap: 20px;
-  background: #ddd;
-  padding: 20px;
-  border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #330721;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;  
+    font-size: 30px;
 }
 
-/* Profile */
-.profile {
-  background: #f9f9f9;
-  padding: 15px;
-  border-radius: 10px;
-  border-color: #fa1e9e;
-}
-
-.profile-img img {
-  width: 100%;
-  border-radius: 10px;
-  border-color: #fa1e9e;
-}
-
-/* Details */
-.details section {
-  background: #fff;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-
-.likes-hobbies {
-  display: flex;
-  gap: 10px;
-}
-
-.likes-hobbies div {
-  background: #fff;
-  flex: 1;
-  padding: 10px;
-  border-radius: 8px;
-}
-
-.goals {
-  background: #000;
-  color: #fff;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 8px;
-  text-align: center;
-}
-
-/* Music */
 .music {
   background: #000000;
   padding: 15px;
@@ -65,8 +41,4 @@ body {
 
 audio {
   width: 100%;
-}
-
-.arrow-heart {
-  list-style-type: "❥";
 }
