@@ -106,3 +106,19 @@ audio {
     align-items: center;
     color:#fa1e9e;
 }
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    margin: 0;
+    padding: 10px;
+  }
+
+  img,
+  audio {
+    width: 100%;
+  }
+}
