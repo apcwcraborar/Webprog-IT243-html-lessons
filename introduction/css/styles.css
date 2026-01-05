@@ -167,25 +167,55 @@ a:active {
   text-align: center;
 }
 
-/* Music */
-.music {
-  background: #000000;
+.spotify-player {
+  background: #000;
   color: #fa1e9e;
-  border: 3px solid #fa1e9e;
+  border-radius: 12px;
   padding: 15px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.cover {
+  width: 100%;
   border-radius: 10px;
+  margin-bottom: 10px;
+}
+ 
+.track-info {
   text-align: center;
 }
-
-.music-img img {
-  width: 100%;
-  border: 3px solid #fa1e9e;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(255, 16, 107, 0.4);
+ 
+.track-info h4 {
+  margin: 5px 0;
 }
-
-audio {
+ 
+.track-info p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+ 
+.controls {
+  margin: 10px 0;
+}
+ 
+.controls button {
+  background: #fa1e9e;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  cursor: pointer;
+}
+ 
+#progress {
   width: 100%;
+  margin-top: 10px;
 }
 
 .heart-list {
