@@ -81,7 +81,7 @@ a:active {
 
 /* Content cell */
 .about-body {
-  padding: 15px;
+  padding: 10px;
   color: #fa1e9e;
 }
 
@@ -255,3 +255,4 @@ audio {
     width: 100%;
   }
 }
+
